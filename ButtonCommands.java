@@ -30,5 +30,7 @@ public class ButtonCommands {
     //The only parameter you need is "shooterTop"
     //Set the shooterTop to intake at 100% speed
 
-  
+  public static Command intakeNote(TalonFX shooterTop)
+   
   }
+
