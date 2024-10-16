@@ -30,7 +30,7 @@ public class RobotContainer {
     joystick2
 	  // CREATE A NEW FUNCTION FOR THE OTHER JOYSTICK YOU CREATED
 	  //Instead of ".rightTrigger()" do ".leftTrigger()"
-	  .rightTrigger()
+	  .leftTrigger()
 	  .on True(
 	    	ButtonCommands.resetShooter(shooterTop, shooterBottom))
 		  //call on function to reset the Shooter)
