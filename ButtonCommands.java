@@ -31,6 +31,9 @@ public class ButtonCommands {
     //Set the shooterTop to intake at 100% speed
 
   public static Command intakeNote(TalonFX shooterTop)
+  return Commands.sequence(
+  Commands.run(
+    shooterTop.set(1.0);
    
   }
 
